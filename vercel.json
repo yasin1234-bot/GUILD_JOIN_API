@@ -1,11 +1,15 @@
 {
   "version": 2,
   "builds": [
-    { "src": "app.py", "use": "@vercel/python" },
-    { "src": "web.py", "use": "@vercel/python" }
+    {
+      "src": "app.py",
+      "use": "@vercel/python"
+    }
   ],
   "routes": [
-    { "src": "/join", "dest": "app.py" },
-    { "src": "/(.*)", "dest": "web.py" }
+    {
+      "src": "/(.*)",
+      "dest": "app.py"
+    }
   ]
 }
