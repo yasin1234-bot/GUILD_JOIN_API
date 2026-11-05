@@ -45,8 +45,8 @@ _http_client = httpx.Client(limits=HTTP_LIMITS, timeout=HTTP_TIMEOUT, verify=Fal
 api_endpoints = {
     "IND": "https://client.ind.freefiremobile.com",
     "AMERICAS": "https://client.us.freefiremobile.com",
-    "BD": "https://clientbp.ggpolarbear.com",
-    "DEFAULT": "https://clientbp.ggpolarbear.com"
+    "BD": "https://clientbp.ppmainecoonghj.com",
+    "DEFAULT": "https://clientbp.ppmainecoonghj.com"
 }
 
 runtime_version.ValidateProtobufRuntimeVersion(runtime_version.Domain.PUBLIC, 6, 30, 0, "", "FreeFire.proto")
